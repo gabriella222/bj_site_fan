@@ -1,0 +1,30 @@
+body{
+
+    background-color:rgba(133, 7, 7, 0.837);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+
+}
+
+.menu{
+    grid-column: 3;
+}
+h1{
+    font-size: 9rem;
+    justify-self: center;
+}
+h2{
+    grid-row: 2;
+
+}
+.image{
+    grid-column: 2;
+}
+
+
+
